@@ -1,0 +1,507 @@
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.4rem;
+    font-family: 'Viga', sans-serif;
+    .avatar_wrapper{
+      display: flex;
+      position: relative;
+      width: 100%;
+      max-width: 1280px;
+      height: 70%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .header{
+        position: relative;
+        display:flex;
+        align-items: center;
+        color:#484848;
+        font-size: 1.6rem;
+        font-weight:bolder;
+        width:85%;
+        height:10%;
+        padding:2rem;
+        word-spacing: 5px;
+        letter-spacing: 0.5px;
+        &:before{
+          content:'';
+          position: absolute;
+          width:9rem;
+          height:0.6rem;
+          background:#f6ce00;
+          top:20%;
+        }
+      }
+      .avatar_selector_block{
+        position: relative;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        width:85%;
+        height:60%;
+        padding:0rem 2rem;
+        .avatar_selector_headline{
+          width:100%;
+          height: 3rem;
+          color:#8d8d8d;
+          font-size: 1.4rem;
+        }
+        .avatar_form {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          padding:0px;
+          margin-bottom:2rem;
+          margin-top:1rem;
+
+          .radio{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+          }
+
+          .avatar1{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-bb-8.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+            background-position: 0px -50px;
+            opacity:0.3;
+            input{
+              position: relative;
+              top:22%;
+            }
+            input[type=radio]{
+            position: absolute;
+            visibility: hidden;
+          }
+            input[type=radio]:checked ~ .check {
+            border: 3px solid #513b5d;
+          }
+
+          input[type=radio]:checked ~ .check::before{
+            background: #513b5d;
+          }
+            .check{
+              display: block;
+              position: absolute;
+              border: 3px solid #a89dae ;
+              border-radius: 100%;
+              height: 25px;
+              width: 25px;
+              bottom: 35px;
+              /* left: 20px; */
+              z-index: 5;
+              transition: border .25s linear;
+              -webkit-transition: border .25s linear;
+              cursor:pointer;
+          }
+          .check::before {
+            display: block;
+            position: absolute;
+          	content: '';
+            border-radius: 100%;
+            height: 15px;
+            width: 15px;
+            top: 5px;
+          	left: 5px;
+            margin: auto;
+          	transition: background 0.25s linear;
+          	-webkit-transition: background 0.25s linear;
+          }
+          }
+          .avatar2{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-stormtrooper.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            flex-direction: column-reverse;
+            background-position: 0px -42px;
+            opacity:0.3;
+            input{
+              position: relative;
+              top:22%;
+            }
+            input[type=radio]{
+            position: absolute;
+            visibility: hidden;
+          }
+            input[type=radio]:checked ~ .check {
+            border: 3px solid #513b5d;
+          }
+
+          input[type=radio]:checked ~ .check::before{
+            background: #513b5d;
+          }
+            .check{
+              display: block;
+              position: absolute;
+              border: 3px solid #a89dae ;
+              border-radius: 100%;
+              height: 25px;
+              width: 25px;
+              bottom: 35px;
+              /* left: 20px; */
+              z-index: 5;
+              transition: border .25s linear;
+              -webkit-transition: border .25s linear;
+              cursor:pointer;
+          }
+          .check::before {
+            display: block;
+            position: absolute;
+          	content: '';
+            border-radius: 100%;
+            height: 15px;
+            width: 15px;
+            top: 5px;
+          	left: 5px;
+            margin: auto;
+          	transition: background 0.25s linear;
+          	-webkit-transition: background 0.25s linear;
+          }
+          }
+          .avatar3{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-r2-d2.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            flex-direction: column-reverse;
+            background-position: 0px -50px;
+            opacity:0.3;
+            input{
+              position: relative;
+              top:22%;
+            }
+            input[type=radio]{
+            position: absolute;
+            visibility: hidden;
+          }
+            input[type=radio]:checked ~ .check {
+            border: 3px solid #513b5d;
+          }
+
+          input[type=radio]:checked ~ .check::before{
+            background: #513b5d;
+          }
+            .check{
+              display: block;
+              position: absolute;
+              border: 3px solid #a89dae ;
+              border-radius: 100%;
+              height: 25px;
+              width: 25px;
+              bottom: 35px;
+              /* left: 20px; */
+              z-index: 5;
+              transition: border .25s linear;
+              -webkit-transition: border .25s linear;
+              cursor:pointer;
+          }
+          .check::before {
+            display: block;
+            position: absolute;
+          	content: '';
+            border-radius: 100%;
+            height: 15px;
+            width: 15px;
+            top: 5px;
+          	left: 5px;
+            margin: auto;
+          	transition: background 0.25s linear;
+          	-webkit-transition: background 0.25s linear;
+          }
+          }
+          .avatar4{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-darth-vader.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            flex-direction: column-reverse;
+            background-position: 0px -42px;
+            opacity:0.3;
+              input{
+                position: relative;
+                top:22%;
+              }
+              input[type=radio]{
+              position: absolute;
+              visibility: hidden;
+            }
+              input[type=radio]:checked ~ .check {
+              border: 3px solid #513b5d;
+            }
+
+            input[type=radio]:checked ~ .check::before{
+              background: #513b5d;
+            }
+              .check{
+                display: block;
+                position: absolute;
+                border: 3px solid #a89dae ;
+                border-radius: 100%;
+                height: 25px;
+                width: 25px;
+                bottom: 35px;
+                /* left: 20px; */
+                z-index: 5;
+                transition: border .25s linear;
+                -webkit-transition: border .25s linear;
+                cursor:pointer;
+            }
+            .check::before {
+              display: block;
+              position: absolute;
+            	content: '';
+              border-radius: 100%;
+              height: 15px;
+              width: 15px;
+              top: 5px;
+            	left: 5px;
+              margin: auto;
+            	transition: background 0.25s linear;
+            	-webkit-transition: background 0.25s linear;
+            }
+          }
+          .avatar5{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-c-3po.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            flex-direction: column-reverse;
+            background-position: 0px -38px;
+            opacity:0.3;
+              input{
+                position: relative;
+                top:22%;
+              }
+              input[type=radio]{
+              position: absolute;
+              visibility: hidden;
+            }
+
+              input[type=radio]:checked ~ .check {
+              border: 3px solid #513b5d;
+            }
+
+            input[type=radio]:checked ~ .check::before{
+              background: #513b5d;
+            }
+              .check{
+                display: block;
+                position: absolute;
+                border: 3px solid #a89dae ;
+                border-radius: 100%;
+                height: 25px;
+                width: 25px;
+                bottom: 35px;
+                /* left: 20px; */
+                z-index: 5;
+                transition: border .25s linear;
+                -webkit-transition: border .25s linear;
+                cursor:pointer;
+            }
+            .check::before {
+              display: block;
+              position: absolute;
+            	content: '';
+              border-radius: 100%;
+              height: 15px;
+              width: 15px;
+              top: 5px;
+            	left: 5px;
+              margin: auto;
+            	transition: background 0.25s linear;
+            	-webkit-transition: background 0.25s linear;
+            }
+          }
+          .avatar6{
+            content: '';
+            position: relative;
+            background: url('../images/starwars-boba-fett.png');
+            background-size: 11rem;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+            width:11rem;
+            height:12rem;
+            display:flex;
+            flex-direction: column-reverse;
+            background-position: 0px -42px;
+            opacity:0.3;
+              input{
+                position: relative;
+                top:22%;
+              }
+              input[type=radio]{
+              position: absolute;
+              visibility: hidden;
+            }
+
+              input[type=radio]:checked ~ .check {
+              border: 3px solid #513b5d;
+            }
+
+            input[type=radio]:checked ~ .check::before{
+              background: #513b5d;
+            }
+              .check{
+                display: block;
+                position: absolute;
+                border: 3px solid #a89dae;
+                border-radius: 100%;
+                height: 25px;
+                width: 25px;
+                bottom: 35px;
+                /* left: 20px; */
+                z-index: 5;
+                transition: border .25s linear;
+                -webkit-transition: border .25s linear;
+                cursor:pointer;
+            }
+            .check::before {
+              display: block;
+              position: absolute;
+            	content: '';
+              border-radius: 100%;
+              height: 15px;
+              width: 15px;
+              top: 5px;
+            	left: 5px;
+              margin: auto;
+            	transition: background 0.25s linear;
+            	-webkit-transition: background 0.25s linear;
+            }
+          }
+          .avatar1.opacityfull,.avatar2.opacityfull,.avatar3.opacityfull,.avatar4.opacityfull,.avatar5.opacityfull,.avatar6.opacityfull{
+                  opacity:0.3;
+          }
+          .avatar1.opacityzero,.avatar2.opacityzero,.avatar3.opacityzero,.avatar4.opacityzero,.avatar5.opacityzero,.avatar6.opacityzero{
+                  opacity:1;
+          }
+        }
+
+        .avatar_detail_button{
+          width:16rem;
+          height:4rem;
+          background:#f6ce00;
+          color:#484848;
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding:0px;
+          cursor:pointer;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  .delay0{
+    animation-delay: 0s;
+  }
+
+  .delay1{
+    animation-delay: 1s;
+  }
+  .delay2{
+    animation-delay: 2s;
+  }
+  .delay3{
+    animation-delay: 3s;
+  }
+  .delay4{
+    animation-delay: 4s;
+  }
+  .delay5{
+    animation-delay: 5s;
+  }
+  .delay6{
+    animation-delay: 6s;
+  }
+  .delay7{
+    animation-delay: 7s;
+  }
+  .delay8{
+    animation-delay: 8s;
+  }
+
+  @keyframes fadeInLeft{
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+100% {
+    // opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+   }
+  }
+
+
+  @media only screen and (max-width:700px) and (min-width:300px){
+    .avatar{
+      height:100%!important;
+      .avatar_wrapper .avatar_selector_block {
+        align-items: center;
+        .avatar_form{
+          flex-direction: column;
+          .avatar6{
+            margin-bottom:2.5rem;
+          }
+        }
+        .avatar_selector_headline{
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+    }
+    .avatar .avatar_wrapper .avatar_selector_block .avatar_detail_button{
+      margin-bottom: 0.5rem;
+      position: fixed;
+      bottom: 0px;
+    }
+    .avatar{
+      width:97vw !important;
+    }
+  }

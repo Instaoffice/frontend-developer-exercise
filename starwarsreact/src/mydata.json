@@ -1,0 +1,36 @@
+[{
+    "id":"bb8",
+    "name" : "BB8",
+    "image" : "../images/starwars-bb-8.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "id":"stormtrooper",
+    "name" : "STORMTROOPER",
+    "image" : "../images/starwars-stormtrooper.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "id":"r2d2",
+    "name" : "R2-D2",
+    "image" : "../images/starwars-r2-d2.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "id":"darthvader",
+    "name" : "DARTH VADER",
+    "image" : "../images/starwars-darth-vader.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "id":"c3po",
+    "name" : "C-3PO",
+    "image" : "../images/starwars-c-3po.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "id":"bobafett",
+    "name" : "BOBA FETT",
+    "image" : "../images/starwars-boba-fett.png",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+}]
