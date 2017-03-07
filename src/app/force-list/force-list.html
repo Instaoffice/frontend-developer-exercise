@@ -1,3 +1,45 @@
 <div class="force-list">
-  this will contain force list
+  <h2>Unlock the force</h2>
+  <p>Please choose your character</p>
+  <div class="force-item">
+    <ul>
+      <li>
+        <label for="item-1">
+          <img src="images/bb-8.png" alt="">
+        </label>
+        <input id="item-1" type="radio" value="bb-8" ng-model="listVm.starwars">
+      </li>
+      <li>
+        <label for="item-2">
+          <img src="images/boba-fett.png" alt="">
+        </label>
+        <input id="item-2" type="radio" value="boba-fett" ng-model="listVm.starwars">
+      </li>
+      <li>
+        <label for="item-3">
+          <img src="images/c-3po.png" alt="">
+        </label>
+        <input id="item-3" type="radio" value="c-3po" ng-model="listVm.starwars">
+      </li>
+      <li>
+        <label for="item-4">
+          <img src="images/darth-vader.png" alt="">
+        </label>
+        <input id="item-4" type="radio" value="darth-vader" ng-model="listVm.starwars">
+      </li>
+      <li>
+        <label for="item-5">
+          <img src="images/r2-d2.png" alt="">
+        </label>
+        <input id="item-5" type="radio" value="r2-d2" ng-model="listVm.starwars">
+      </li>
+      <li>
+        <label for="item-6">
+          <img src="images/storm-trooper.png" alt="">
+        </label>
+        <input id="item-6" type="radio" value="storm-trooper" ng-model="listVm.starwars">
+      </li>
+    </ul>
+    <button type="button" class="btn btn-submit" ui-sref="force.details({id:listVm.starwars})">Submit</button>
+  </div>
 </div>

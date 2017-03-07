@@ -3,8 +3,10 @@
 
     module.controller('ForceListCtrl', ForceListCtrl);
 
-    ForceListCtrl.$inject = [];
-    function ForceListCtrl(){
+    ForceListCtrl.$inject = ['$state'];
+    function ForceListCtrl($state){
+
+        var vm = this;
 
     }
 
