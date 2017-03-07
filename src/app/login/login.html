@@ -1,9 +1,10 @@
 <div class="login-page" ui-view>
   <div class="login-form-wrap">
     <p class="l-heading">unlock he force</p>
-    <form class="" action="index.html" method="post">
-      <input type="text" name="" value="">
-      <input type="password" name="" value="">
+    <form class="login-form" name="login" ng-submit="loginVm.submitLogin()">
+      <input type="text" name="username" ng-model="loginVm.username" placeholder="instaoffice-admin" ng-class="loginVm.valid.username">
+      <input type="password" name="password" ng-model="loginVm.password" placeholder="admin" ng-class="loginVm.valid.password">
+      <span>{{loginVm.errorMessage}}</span>
       <button type="submit" name="button">LOGIN</button>
     </form>
   </div>

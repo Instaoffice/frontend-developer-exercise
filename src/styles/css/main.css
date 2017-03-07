@@ -1,2 +1,5 @@
-body {
-  background: #eee; }
+input:not(.ng-pristine).ng-valid {
+  border: 1px solid #016936; }
+
+input:not(.ng-pristine).ng-invalid {
+  border: 1px solid #db2828; }
