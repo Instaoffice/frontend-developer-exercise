@@ -1,0 +1,1 @@
+myApp.controller("CharacterController",["$scope","$location","$state",function(a,c,b){a.name="Character Controller";a.disable=true;a.idSelected;a.toggles=[];a.selectedId=function(){b.go("details",{id:a.idSelected})};a.changeClass=function(){for(var d=0;d<6;d++){a.toggles[d]=0}a.toggles[a.idSelected]=1}}]);

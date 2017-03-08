@@ -1,0 +1,17 @@
+<div class="center" > <img ng-src=" {{toggle  && 'images/starwars-darth-vader.png' || 'images/starwars-stormtrooper.png' }} "> </div>
+<center>
+   <div ng-class=" toggle ? 'page-view-l' : 'page-view-u' " >
+      <h3 class="unlock" > unlock the force </h3>
+      <form ng-submit="login()" style="position: relative">
+         <input type="text"  ng-submit="login()" ng-class=" toggle ? 'block-l' : 'block-ug' "  placeholder="Username" maxlength="20"  ng-model="username" style="position: inherit" />
+         <img src="images/tick.jpg" width="30px" height="30px" ng-class=" toggle ? 'nodisplay' : 'imgalignuser' ">
+         <br> <br> 
+         <input type="password"  ng-submit="login()" ng-class=" toggle ? 'block-l' : 'block-ur' " placeholder="Password" maxlength="20" ng-model="password" style="position: inherit" />
+         <img src="images/cross.jpg" width="30px" height="30px" ng-class=" toggle ? 'nodisplay' : 'imgalignpass' ">
+         <br>
+         <p class="error" > {{error}} </p>
+         <br>
+         <button type="submit" class="login"  >  LOGIN </button>  </a> <br> <br>
+      </form>
+   </div>
+</center>

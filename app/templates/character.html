@@ -1,0 +1,36 @@
+<div class="margin">
+   <hr>
+   <h3 class="unlockforce" > unlock the force </h3>
+   <br>
+   <br> 
+   <h3 class="choosecharacter" > please choose your character </h3>
+   <div style="display: flex; margin-top: -20px; margin-left: -25px" >
+      <div >
+         <label for="avatar1"> <img ng-class=" toggles[0] ? 'dark' : 'light' " src= "images/starwars-bb-8.png" width="160px" height="140px" > </label>  <br>
+         <input type="radio" name="chooseone" id="avatar1"  ng-model="idSelected" value="0" ng-click="disable=false; changeClass() " ng-keyup="$event.keyCode == 13 && selectedId()" style="margin-left: 70px" /> 
+      </div>
+      <div >
+         <label for= "avatar2" ><img  ng-class=" toggles[1] ? 'dark' : 'light' " src= "images/starwars-stormtrooper.png" width="160px" height="140px">  </label> <br>  
+         <input type="radio" name="chooseone" id="avatar2" ng-model="idSelected" value="1" ng-click="disable=false; changeClass() " ng-keyup="$event.keyCode == 13 && selectedId()" style="margin-left: 70px" >
+      </div>
+      <div >
+         <label for="avatar3"> <img ng-class=" toggles[2] ? 'dark' : 'light' " src= "images/starwars-r2-d2.png" width="160px" height="140px">  </label>    <br>
+         <input type="radio" name="chooseone" id="avatar3" ng-model="idSelected" value="2" ng-click="disable=false; changeClass()" ng-keyup="$event.keyCode == 13 && selectedId()" style="margin-left: 70px"> 
+      </div>
+      <div >
+         <label for="avatar4"> <img ng-class=" toggles[3] ? 'dark' : 'light' "  src= "images/starwars-darth-vader.png" width="160px" height="140px">  </label>    <br>
+         <input type="radio" name="chooseone" id="avatar4" ng-model="idSelected" value="3" ng-click="disable=false; changeClass()" ng-keyup="$event.keyCode == 13 && selectedId()" style="margin-left: 70px"> 
+      </div>
+      <div >
+         <label for="avatar5"> <img ng-class=" toggles[4] ? 'dark' : 'light' " src= "images/starwars-c-3po.png" width="160px" height="140px"> </label>   <br>
+         <input type="radio" name="chooseone" id="avatar5" ng-model="idSelected" value="4" ng-click="disable=false; changeClass()" ng-keyup="$event.keyCode == 13 && selectedId()"style="margin-left: 70px" > 
+      </div>
+      <div >
+         <label for="avatar6"> <img ng-class=" toggles[5] ? 'dark' : 'light' " src= "images/starwars-boba-fett.png" width="160px" height="140px"> </label>  <br>
+         <input type="radio" name="chooseone" id="avatar6" ng-model="idSelected" value="5" ng-click="disable=false; changeClass()" ng-keyup="$event.keyCode == 13 && selectedId()"style="margin-left: 70px" > 
+      </div>
+   </div>
+   <br>
+   <br>
+   <button  ng-click="selectedId()" ng-disabled="disable" > Show Details </button>
+</div>
