@@ -1,6 +1,7 @@
 @import "variables";
 @import "../../app/login/login.scss";
 @import "../../app/force-list/_flist.scss";
+@import "../../app/force-details/_fdetails.scss";
 
 body, input, button{
   font-family: 'Titillium Web', sans-serif;
@@ -17,4 +18,12 @@ body, input, button{
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.border{
+  width: 150px;
+  height: 10px;
+  display: block;
+  background: $yellow;
+  margin-bottom: 10px;
 }

@@ -41,7 +41,7 @@ input:not(.ng-pristine).ng-invalid {
     display: block; }
 
 .force-list h1 {
-  width: 80%;
+  width: 85%;
   margin: 60px auto 30px; }
 
 .force-list .force-item {
@@ -50,8 +50,8 @@ input:not(.ng-pristine).ng-invalid {
   height: 300px;
   overflow-x: visible;
   margin-bottom: 50px;
-  width: 80%;
-  margin-left: 20%; }
+  width: 85%;
+  margin-left: 15%; }
   .force-list .force-item .item {
     width: 250px;
     height: 300px;
@@ -66,7 +66,7 @@ input:not(.ng-pristine).ng-invalid {
   visibility: hidden; }
 
 .force-list .btn-wrap {
-  width: 80%;
+  width: 85%;
   margin: 0 auto; }
 
 .force-list .btn-submit {
@@ -75,12 +75,37 @@ input:not(.ng-pristine).ng-invalid {
   padding: 30px;
   font-size: 24px; }
 
-.border {
-  width: 150px;
-  height: 10px;
-  display: block;
-  background: #FBBD06;
-  margin-bottom: 10px; }
+.force-details .prev-state {
+  display: block; }
+
+.force-details .svg-icon {
+  width: 50px;
+  height: 50px; }
+  .force-details .svg-icon path {
+    fill: #555; }
+
+.force-details .header {
+  height: 300px;
+  background: #efefef;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.force-details .details {
+  position: absolute;
+  top: 150px; }
+  .force-details .details .image {
+    max-width: 100%; }
+  .force-details .details .name {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .force-details .details .about {
+    margin: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: 600; }
 
 body, input, button {
   font-family: 'Titillium Web', sans-serif; }
@@ -96,3 +121,10 @@ body, input, button {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase; }
+
+.border {
+  width: 150px;
+  height: 10px;
+  display: block;
+  background: #FBBD06;
+  margin-bottom: 10px; }
