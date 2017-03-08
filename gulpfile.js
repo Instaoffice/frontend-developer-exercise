@@ -18,7 +18,7 @@ gulp.task('serve', ['sass'], function () {
 
 gulp.task('sass', function() {
     return gulp.src("src/styles/scss/*.scss")
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest("src/styles/css"))
         .pipe(browserSync.stream());
 });
