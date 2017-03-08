@@ -1,0 +1,163 @@
+.page-view-l, .page-view-u {
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid silver;
+  width: 400px;
+  margin-top: -77px;
+}
+
+.page-view-l {
+  height: 400px;
+}
+
+.page-view-u {
+  height: 500px;
+}
+
+.block-l, .block-ug, .block-ur {
+  border: 1px solid silver;
+  width: 8cm;
+  height: 1.5cm;
+  text-indent: 12px;
+  border-radius: 5px;
+  font-size: 100%;
+}
+
+.block-ug {
+  border-color: green;
+}
+
+.block-ur {
+  border-color: red;
+}
+
+.center {
+  text-align: center;
+}
+
+.unlock {
+  margin-top: 90px;
+  font-family: 'Righteous';
+  font-size: 170%;
+  color: #4d4d4d;
+}
+
+.error {
+  text-indent: 12px;
+  color: red;
+  size: 15px;
+}
+
+.login {
+  border: 1px solid;
+  width: 8cm;
+  height: 1.5cm;
+  background-color: #ff4000;
+  color: white;
+  border-radius: 5px;
+  font-size: 130%;
+}
+
+.margin {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+hr {
+  width: 120px;
+  height: 10px;
+  margin-left: initial;
+  border: 2px solid #ffd633;
+  background-color: #ffd633;
+}
+
+.unlockforce {
+  font-size: 2em;
+}
+
+.characterimages {
+  margin-top: -20px;
+  margin-left: -25px;
+}
+
+.choosecharacter {
+  color: #777;
+}
+
+.margin button {
+  border: 1px solid;
+  width: 7cm;
+  height: 1cm;
+  background-color: #ffd633;
+}
+
+.charfullimg {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.tagline {
+  position: absolute;
+  left: 280px;
+  padding: 160px;
+  font-size: 25px;
+  border-radius: 4px;
+  border: 1px solid silver;
+  width: 400px;
+  height: 250px;
+  border-color: silver;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  h3 {
+    font-size: 30px;
+  }
+}
+
+.backimage {
+  position: absolute;
+  cursor: pointer;
+}
+
+.margin {
+  > div {
+    &:first-child {
+      position: relative;
+      height: 25px;
+    }
+    &:last-child {
+      position: relative;
+      margin-top: -20px;
+    }
+  }
+  span {
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    top: 5px;
+  }
+}
+
+.dark {
+  opacity: 1;
+}
+
+.light {
+  opacity: .4;
+}
+
+.imgalignpass {
+  position: absolute;
+  left: 300px;
+  top: 95px;
+}
+
+.imgalignuser {
+  position: absolute;
+  left: 300px;
+  top: 15px;
+}
+
+.nodisplay {
+  display: none;
+}
