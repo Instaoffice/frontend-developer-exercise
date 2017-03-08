@@ -17,6 +17,15 @@ input:not(.ng-pristine) {
       width: 300px;
       margin: 0 auto;
     }
+    @media (min-width:768px){
+        .login-form-wrap {
+          border: 1px solid #aaa;
+          border-radius: 4px;
+          padding: 20px;
+          background: #fff;
+          transform: translateY(20%);
+        }
+    }
     .login-img-wrap {
         width: 100%;
 

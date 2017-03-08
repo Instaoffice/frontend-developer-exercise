@@ -10,9 +10,18 @@
       unlock the force
     </h1>
   </div>
-  <div class="details">
+  <div class="details-sm">
     <img ng-src="images/{{detailsVm.starDetails.id}}.png" alt="" class="image">
     <p class="name">{{detailsVm.starDetails.name}}</p>
     <p class="about">{{detailsVm.starDetails.about}}</p>
+  </div>
+  <div class="details-lg">
+    <div class="img-box">
+        <img ng-src="images/{{detailsVm.starDetails.id}}.png" alt="" class="image">
+    </div>
+    <div class="content-box">
+      <p class="name">{{detailsVm.starDetails.name}}</p>
+      <p class="about">{{detailsVm.starDetails.about}}</p>
+    </div>
   </div>
 </div>

@@ -7,7 +7,7 @@
     function ForceListCtrl($state){
 
         var vm = this;
-        vm.starwars == 'bb-8';
+        vm.starwars = 'bb-8';
 
     }
 

@@ -9,7 +9,7 @@
         var vm = this;
         vm.valid = {};
         vm.submitLogin = function submitLogin(){
-            if(vm.username === 'instaoffice-admin' && vm.password === 'admin'){
+            if(vm.username === 'yoda' && vm.password === 'dogbah'){
                 vm.errorMessage = undefined;
                 vm.valid = {
                     username: 'ng-valid',
@@ -17,7 +17,7 @@
                 }
                 $state.go('force.list');
             }
-            else if(vm.username !== 'instaoffice-admin'){
+            else if(vm.username !== 'yoda'){
                 vm.errorMessage = 'Username and Password do not match';
                 vm.valid = {
                     username: 'ng-invalid',
