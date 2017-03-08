@@ -1,2 +1,20 @@
 @import "variables";
 @import "../../app/login/login.scss";
+@import "../../app/force-list/_flist.scss";
+
+body, input, button{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.btn{
+  border:none;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

@@ -1,0 +1,47 @@
+.force-list{
+  h1{
+    width: 80%;
+    margin: 60px auto 30px;
+  }
+  .force-item{
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 300px;
+    overflow-x: visible;
+    margin-bottom: 50px;
+    width: 80%;
+    margin-left: 20%;
+    .item{
+      width: 250px;
+      height: 300px;
+      display: inline-block;
+      img{
+        width: 250px;
+        opacity: 0.5;
+        &.active{
+          opacity: 1;
+        }
+      }
+    }
+  }
+  input[type="radio"]{
+    visibility: hidden;
+  }
+  .btn-wrap{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .btn-submit{
+    background: $yellow;
+    width: 320px;
+    padding: 30px;
+    font-size: 24px;
+  }
+}
+.border{
+  width: 150px;
+  height: 10px;
+  display: block;
+  background: $yellow;
+  margin-bottom: 10px;
+}

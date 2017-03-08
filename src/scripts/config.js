@@ -9,7 +9,7 @@
                     .state('force', {
                         url: '/force',
                         template: '<ui-view/>',
-                        abstract: true,
+                        abstract: true
                     })
                     .state('force.login', {
                         url: '/login',

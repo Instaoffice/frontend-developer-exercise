@@ -1,45 +1,47 @@
 <div class="force-list">
-  <h2>Unlock the force</h2>
-  <p>Please choose your character</p>
+  <h1>
+      <span class="border"></span>
+      unlock the force
+  </h1>
   <div class="force-item">
-    <ul>
-      <li>
-        <label for="item-1">
-          <img src="images/bb-8.png" alt="">
-        </label>
-        <input id="item-1" type="radio" value="bb-8" ng-model="listVm.starwars">
-      </li>
-      <li>
-        <label for="item-2">
-          <img src="images/boba-fett.png" alt="">
-        </label>
-        <input id="item-2" type="radio" value="boba-fett" ng-model="listVm.starwars">
-      </li>
-      <li>
-        <label for="item-3">
-          <img src="images/c-3po.png" alt="">
-        </label>
-        <input id="item-3" type="radio" value="c-3po" ng-model="listVm.starwars">
-      </li>
-      <li>
-        <label for="item-4">
-          <img src="images/darth-vader.png" alt="">
-        </label>
-        <input id="item-4" type="radio" value="darth-vader" ng-model="listVm.starwars">
-      </li>
-      <li>
-        <label for="item-5">
-          <img src="images/r2-d2.png" alt="">
-        </label>
-        <input id="item-5" type="radio" value="r2-d2" ng-model="listVm.starwars">
-      </li>
-      <li>
-        <label for="item-6">
-          <img src="images/storm-trooper.png" alt="">
-        </label>
-        <input id="item-6" type="radio" value="storm-trooper" ng-model="listVm.starwars">
-      </li>
-    </ul>
-    <button type="button" class="btn btn-submit" ui-sref="force.details({id:listVm.starwars})">Submit</button>
+    <div class="item">
+      <label for="item-1">
+        <img src="images/bb-8.png" alt="" ng-class="{'active': listVm.starwars == 'bb-8'}">
+      </label>
+      <input id="item-1" type="radio" value="bb-8" ng-model="listVm.starwars">
+    </div>
+    <div class="item">
+      <label for="item-2">
+        <img src="images/boba-fett.png" alt="" ng-class="{'active': listVm.starwars == 'boba-fett'}">
+      </label>
+      <input id="item-2" type="radio" value="boba-fett" ng-model="listVm.starwars">
+    </div>
+    <div class="item">
+      <label for="item-3">
+        <img src="images/c-3po.png" alt="" ng-class="{'active': listVm.starwars == 'c-3po'}">
+      </label>
+      <input id="item-3" type="radio" value="c-3po" ng-model="listVm.starwars">
+    </div>
+    <div class="item">
+      <label for="item-4">
+        <img src="images/darth-vader.png" alt="" ng-class="{'active': listVm.starwars == 'darth-vader'}">
+      </label>
+      <input id="item-4" type="radio" value="darth-vader" ng-model="listVm.starwars">
+    </div>
+    <div class="item">
+      <label for="item-5">
+        <img src="images/r2-d2.png" alt="" ng-class="{'active': listVm.starwars == 'r2-d2'}">
+      </label>
+      <input id="item-5" type="radio" value="r2-d2" ng-model="listVm.starwars">
+    </div>
+    <div class="item">
+      <label for="item-6">
+        <img src="images/storm-trooper.png" alt="" ng-class="{'active': listVm.starwars == 'storm-trooper'}">
+      </label>
+      <input id="item-6" type="radio" value="storm-trooper" ng-model="listVm.starwars">
+    </div>
+  </div>
+  <div class="btn-wrap">
+    <button type="button" class="btn btn-submit" ui-sref="force.details({id:listVm.starwars})">Show Details</button>
   </div>
 </div>
