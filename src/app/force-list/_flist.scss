@@ -1,0 +1,58 @@
+.force-list{
+  .heading{
+    width: 85%;
+    margin: 60px auto 30px;
+    .sub-heading{
+      margin-top: 50px;
+      color: #777;
+    }
+  }
+  @media (max-width: 767px){
+    .heading .sub-heading{
+      display: none;
+    }
+  }
+  .force-item{
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 300px;
+    overflow-x: visible;
+    margin-bottom: 50px;
+    width: 85%;
+    margin-left: 15%;
+    .item{
+      width: 250px;
+      height: 300px;
+      display: inline-block;
+      margin-right: 25px;
+      img{
+        width: 250px;
+        opacity: 0.5;
+        transition: all 300ms ease;
+        &.active{
+          transition: all 300ms ease;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  input[type="radio"]{
+    visibility: hidden;
+  }
+  .btn-wrap{
+    width: 85%;
+    margin: 0 auto;
+  }
+  .btn-submit{
+    background: $yellow;
+    width: 320px;
+    padding: 30px;
+    font-size: 24px;
+  }
+  @media (min-width: 768px){
+    .force-item{
+      width: 90%;
+      margin-left: 10%;
+    }
+  }
+}

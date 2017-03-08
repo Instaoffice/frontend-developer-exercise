@@ -1,0 +1,23 @@
+{
+  "name": "frontend-developer-exercise",
+  "description": "An exercise for frontend developer applicants Please see the PDF for the flow of the applications. The assets are in the assets folder.",
+  "main": "index.js",
+  "authors": [
+    "moid.mw@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/moidmw/frontend-developer-exercise",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "0.3.2",
+    "angular": "1.6.2",
+    "angular-animate": "1.6.2",
+    "jquery": "^3.1.1"
+  }
+}

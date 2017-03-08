@@ -1,0 +1,14 @@
+<div class="login-page" ui-view>
+  <div class="login-form-wrap">
+    <div class="login-img-wrap">
+      <img src="images/darth-vader.png" alt="">
+    </div>
+    <h1 class="l-heading">unlock the force</h1>
+    <form class="login-form" name="login" ng-submit="loginVm.submitLogin()">
+      <input type="text" name="username" ng-model="loginVm.username" placeholder="Username" ng-class="loginVm.valid.username">
+      <input type="password" name="password" ng-model="loginVm.password" placeholder="Password" ng-class="loginVm.valid.password">
+      <span class="error-message">{{loginVm.errorMessage}}</span>
+      <button type="submit" name="button" class="btn btn-login">LOGIN</button>
+    </form>
+  </div>
+</div>
