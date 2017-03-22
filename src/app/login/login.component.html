@@ -1,0 +1,47 @@
+<div class="container cont" align="center">
+  <div>
+    <div class="img_align animated flash">
+      <img src="../assets/images/cropped_darth.png" class="image">
+    </div>
+    <div class="box" align="center">
+      <h1 align="center">
+        {{title}}
+      </h1>
+      <div>
+        <form autocomplete="off">
+          <input type="text" name="username" placeholder="Username" class="text_box animated fadeInLeft"
+                 [ngClass]="valid_username?(valid_username === true?'valid':'invalid'):(valid_username === false?'invalid':'')"
+                 [(ngModel)]="user.id" #name="ngModel" required minlength="4" maxlength="20"
+                 autocomplete="off">
+          <br>
+          <input type="password" name="password" placeholder="Password" class="text_box animated fadeInRight"
+                 [ngClass]="invalid_password?'invalid':''" autocomplete="off"
+                 [(ngModel)]="user.password" #password="ngModel" required minlength="5" maxlength="20">
+          <div *ngIf="name.errors && (name.dirty || name.touched)">
+            <div [hidden]="!name.errors.minlength" class="alert">
+              Name must be at least 4 characters long.
+            </div>
+            <div [hidden]="!name.errors.maxlength" class="alert">
+              Name cannot be more than 24 characters long.
+            </div>
+          </div>
+          <div *ngIf="password.errors && (password.dirty || password.touched)"
+               class="alert alert-danger">
+            <div [hidden]="!password.errors.minlength" class="alert">
+              Password must be atleast 5 characters long.
+            </div>
+            <div [hidden]="!password.errors.maxlength" class="alert">
+              Name cannot be more than 24 characters long.
+            </div>
+          </div>
+          <div [hidden]="!error_message" class="alert">
+            {{error_message}}
+          </div>
+          <br>
+          <input type="submit" [disabled]="password.errors || name.errors" value="Submit" (click)="next()"
+                 class="button animated bounceIn" size="35">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

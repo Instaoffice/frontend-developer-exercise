@@ -1,0 +1,20 @@
+<div class="container " align="center">
+  <hr>
+  <h1 align="left">Unlock the force</h1>
+  <h2 class="color" align="left"> Please choose your character</h2>
+  <div class="main" *ngFor="let list of listing" align="center">
+    <div class="container_image animated wobble">
+      <img src="{{list.image}}" alt="Avatar" class="image animated {{list.animation}}">
+    </div>
+    <input type="radio" name="charecters" id="{{list.id}}" class="radio" (click)="detail(list.id)">
+  </div>
+  <div class="row">
+    <button class="button" [disabled]="!id" (click)="next()">VIEW DETAIL</button>
+  </div>
+</div>
+
+
+
+
+
+

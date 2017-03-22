@@ -1,0 +1,49 @@
+.main {
+  width: 12%;
+  float: left;
+  padding: 15px;
+}
+
+.container_image {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container_image:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.button {
+  background-color: #F6CE00;
+  border: none;
+  color: #3F3F3F;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*button*/
+.button {
+  width: 25%;
+  float: left;
+  padding: 15px;
+}
+
+.color {
+  color: #A9A9A9;
+}
+
+hr {
+  border: none;
+  height: 5px;
+  color: #F6CE00;
+  background-color: #F6CE00;
+  width: 5%;
+  margin-left: 0;
+  text-align: left;
+}
