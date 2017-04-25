@@ -1,0 +1,10 @@
+﻿<div class="login">
+<div class="container"></div>​
+<form name="form" class="login-form" (ngSubmit)="f.form.valid && login()" #f="ngForm" >
+<h1>unlock the force</h1>
+        <div><input type="text" placeholder="Username" name="username" [(ngModel)]="model.username" required /></div>
+        <div><input type="password" placeholder="Password" autocomplete="new-password" name="password" [(ngModel)]="model.password" required /></div>
+        <div><button [disabled]="loading">LOGIN</button>
+        </div>
+    </form>
+</div>
