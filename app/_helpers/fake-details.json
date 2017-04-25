@@ -1,0 +1,30 @@
+[{
+    "name" : "bb-8",
+    "image" : "bb-8",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "name" : "stormtrooper",
+    "image" : "stormtrooper",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "name" : "r2-d2",
+    "image" : "r2-d2",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "name" : "darth-vader",
+    "image" : "darth-vader",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "name" : "c-3po",
+    "image" : "c-3po",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+},
+{
+    "name" : "boba-fett",
+    "image" : "boba-fett",
+    "about" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi accusantium ab sunt, laborum eum quos laudantium nulla voluptatibus sed, tempora voluptate veritatis molestias odit possimus quibusdam assumenda, asperiores magnam harum?"
+}]

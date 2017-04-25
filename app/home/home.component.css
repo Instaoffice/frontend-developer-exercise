@@ -1,0 +1,30 @@
+h1{margin:0;}
+h3{color:grey;font-weight:normal;font-size: 25px}
+div.inline { float:left; }
+		.clearBoth { clear:both; }
+		.inactiveCharacter { opacity: 0.4; }
+		.activeCharacter { opacity: 1; }
+		.character-container { display: inline-block;margin-bottom: 30px}
+		.main-button { 
+			background-color: #FFC300; /* Yellow */
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		.hr {
+			background: #FFC300  no-repeat scroll center;
+			width:7em;
+			height:5px;
+			margin-top:80px;
+		}
+		.hr hr {
+			display: none;
+		}
+		.radio{
+			width:2em;
+			height:2em;
+		}
