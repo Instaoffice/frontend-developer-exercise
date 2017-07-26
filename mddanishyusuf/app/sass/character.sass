@@ -1,0 +1,66 @@
+@import login
+
+.character-container
+	height: 100vh
+	padding: 60px
+	background-color: $white-color
+
+.ch-h3
+	color: #9e9e9e
+	margin-top: 20px
+	font-size: 25px
+
+.top-border
+	background-color: #f6cf00
+	width: 200px
+	height: 10px
+	margin-bottom: 10px
+
+.characters-list
+	img
+		width: 150px
+		opacity: 0.6
+
+form
+
+	input[type=submit]
+		@extend .button-style
+		background-color: #f6cf00
+		color: #5a5a5a
+		margin-top: 50px
+
+	label
+		cursor: pointer
+
+.input-radio
+		left: 90px
+		position: relative
+		visibility: hidden
+
+.radio
+	span
+		position: relative
+		padding-left: 20px
+		&:after
+		  content: ''
+		  width: 15px
+		  height: 15px
+		  border: 3px solid #523c5d
+		  position: absolute
+		  left: -112px
+		  top: 1px
+		  border-radius: 100%
+
+	input[type="radio"]:checked + span
+		&:before
+			content: ""
+			width: 10px
+			height: 10px
+			position: absolute
+			background: #523c5d
+			left: -106.5px
+			top: 6px
+			border-radius: 100%
+
+	input[type="radio"]:checked + img
+    	opacity: 1
