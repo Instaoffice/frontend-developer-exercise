@@ -1,0 +1,23 @@
+{
+  "name": "instaoffice",
+  "version": "1.0.0",
+  "description": "Front-end Task for instaOffice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mddanishyusuf",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3"
+  }
+}

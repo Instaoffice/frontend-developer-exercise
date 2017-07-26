@@ -1,0 +1,15 @@
+<div class="login-container">
+	<div class="login-box-image">
+		<img src="images/starwars-stormtrooper.png">
+	</div>
+	<div class="login-form">		
+		<form>
+			<h1>unlock the force</h1><br>
+			<input type="text" name="username" ng-model="vm.username" placeholder="Username" required>
+			<input type="password" name="username" ng-model="vm.password" placeholder="Password" required>
+			<br>
+			{{vm.error}}
+			<input type="submit" value="Login" ng-click="vm.login()">
+		</form>
+	</div>
+</div>

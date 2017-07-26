@@ -1,0 +1,48 @@
+$font-color: #5a5a5a
+$button-font: Source Sans Pro, sans-serif;
+$white-color: #ffffff
+
+.detail-container
+	height: 100vh
+	padding: 60px
+	background-color: $white-color
+
+
+.go-back
+	a
+		text-decoration: none
+		font-family: $button-font
+		font-size: 20px
+		color: $font-color
+		&:before
+			content: "← "
+			font-size: 30px
+
+.details
+	display: inline-block
+
+.detail-image
+	display: inline-block
+	float: left
+
+	img
+	    margin-top: -160px
+	    margin-left: 138px
+	    z-index: 2
+.detail-content
+	margin-left: 500px
+
+.detail-content
+	width: 40%
+	margin-right: 200px
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 2px 9px rgba(0,0,0,0.22)
+	padding: 60px
+
+	p
+		font-family: $button-font
+		letter-spacing: 0.8px
+		font-weight: 700
+	h1
+		font-size: 60px
+		letter-spacing: 2px
+		text-transform: uppercase

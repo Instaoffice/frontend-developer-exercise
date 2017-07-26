@@ -1,0 +1,16 @@
+<div class="character-container">
+<div class="top-border"></div>
+<h1>unlock the force</h1>
+<h3 class="ch-h3">Please choose your force</h3>
+<div class="characters-list">
+	<form>
+		<label class="radio" ng-repeat="ch in vm.chracters">
+			<img ng-src="{{'/app/images/starwars-'+ch.image+'.png'}}" title="{{ch.name}}" class="im">
+			<input type="radio" class="input-radio" name="force" ng-model="vm.id" value="{{ch.id}}">
+			<span></span>
+		</label>
+		<br>
+		<input type="submit" value="Show Details" ng-click="vm.showDetails(vm.id)">
+	</form>
+</div>
+</div>
